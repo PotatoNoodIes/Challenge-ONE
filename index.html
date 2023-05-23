@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" media="screen" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="input">
+        <img src="./imagenes/Logo.png" alt="logo" id="logo" />
+        <textarea
+          id="text"
+          placeholder="Ingrese el texto aqui"
+          rows="1"
+        ></textarea>
+        <div id="last">
+          <p>
+            <span class="exclamation">&#33;</span> Solo letras minúsculas y sin
+            acentos
+          </p>
+          <div id="buttons">
+            <button id="encrypt" class="button-click">Encriptar</button>
+            <button id="decrypt" class="button-click">Desencriptar</button>
+          </div>
+        </div>
+      </div>
+      <div id="show-area">
+        <div id="show">
+          <img src="./imagenes/Muñeco.png" alt="not-found" id="not-found" />
+          <div id="text-2">
+            <p id="show-text-1">Ningún mensaje fue encontrado</p>
+            <p id="show-text-2">
+              Ingresa el texto que desees encriptar o desencriptar.
+            </p>
+          </div>
+        </div>
+        <button id="copy" class="button-click">Copiar</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
